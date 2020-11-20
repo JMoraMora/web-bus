@@ -66,3 +66,12 @@
   margin: 120px auto 0 auto;
   padding: 10px;
 }
+
+/*servicios*/
+.servicios {
+  padding: 100px 0;
+}
+
+.servicios .row{
+  margin-top: 50px;
+}
