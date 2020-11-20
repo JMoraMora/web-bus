@@ -1,0 +1,39 @@
+.fondo {
+  background-image: url(fondo.jpg);
+
+  min-height: 700px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*ventajas*/
+.ventajas {
+  padding: 100px 150px;
+}
+
+.ventajas .row{
+  margin-top: 50px;
+}
+
+/*populares*/
+.populares {
+  padding: 100px 150px;
+}
+
+.populares .row{
+  margin-top: 50px;
+}
+
+/*precios*/
+.precios {
+  padding: 100px 150px;
+}
+
+.precios .row{
+  margin-top: 50px;
+}
+
+
