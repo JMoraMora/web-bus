@@ -11,7 +11,7 @@
 
 /*ventajas*/
 .ventajas {
-  padding: 100px 150px;
+  padding: 100px 0;
 }
 
 .ventajas .row{
@@ -20,7 +20,7 @@
 
 /*populares*/
 .populares {
-  padding: 100px 150px;
+  padding: 100px 0;
   background-color: #FFF0F5;
 }
 
@@ -30,7 +30,7 @@
 
 /*precios*/
 .precios {
-  padding: 100px 150px;
+  padding: 100px 0;
 }
 
 .precios .row{
@@ -43,10 +43,14 @@
   font-weight: 700;
 }
 
+.precios > .container > .row > article > .card{
+  border: 1px solid  #DC3545;
+}
+
 .fcontacto {
   background-color: #1F1F1F;
   color: white;
-  padding: 100px 150px;
+  padding: 100px 0;
 }
 
 /* mapa */
