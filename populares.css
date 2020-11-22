@@ -1,0 +1,27 @@
+/*populares*/
+.populares {
+  padding: 100px 0;
+  background-color: #FAF0E6;
+}
+
+.populares .grid-container-populares{
+  margin-top: 50px;
+}
+
+.grid-container-populares {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;    
+}
+
+@media only screen and (max-width: 770px) {
+  .grid-container-populares {
+      display: grid;
+      grid-template-columns: auto;
+      grid-gap: 10px;
+  }
+}
+
+.grid-container-populares :hover div{
+  margin-top: -5px;
+}

@@ -18,15 +18,6 @@
   margin-top: 50px;
 }
 
-/*populares*/
-.populares {
-  padding: 100px 0;
-  background-color: #FFF0F5;
-}
-
-.populares .row{
-  margin-top: 50px;
-}
 
 /*precios*/
 .precios {
@@ -35,6 +26,11 @@
 
 .precios .row{
   margin-top: 50px;
+}
+
+.precios > .container > .row > article :hover{
+  background-color:	#FFE4E1;
+  color: red;
 }
 
 .precios .precio{
