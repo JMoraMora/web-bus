@@ -61,21 +61,24 @@
 
         <div class="container">
           <div class="rounded-lg form-fondo">
+            <h4 class="font-weight-light">Escoge tu lugar de destino de forma rapida y facil</h4>
 
             <form class="form-inline">
+
               <div class="form-check mb-2 mr-sm-4">
                 <input class="form-check-input" type="radio" name="radiobtnform">
+                <label class="form-check-label" style="font-weight: 200;">Solo ida</label>
+              </div>
+
+              <div class="form-check mb-2 mr-sm-4">
+                <input class="form-check-input" type="radio" name="radiobtnform" checked>
                 <label class="form-check-label" style="font-weight: 200;">Ida y vuelta</label>
               </div>
 
-              <div class="form-check mb-2 mr-sm-4">
-                <input class="form-check-input" type="radio" name="radiobtnform">
-                <label class="form-check-label" style="font-weight: 200;">Un solo viaje</label>
-              </div>
-
               <label class="mb-2 mr-sm-4" style="font-weight: 200;">Pasajeros </label>
-              <input type="number" class="form-control mb-2 mr-sm-2" style="width: 80px;">
+              <input type="number" class="form-control mb-2 mr-sm-2" style="width: 80px;" min="1" value="1" max="20">
             </form>
+            <br>
 
             <form>
               <div class="form-row">
